@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    height: 200px;
+    margin-top: 0px;
+    padding: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.headerTitle {
+    margin-top: 0rem;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerSubTitle {
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.headerH3 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.headerP {
+    margin-left: 5rem;
+}
+
+.buttonSection{
+    height: 100px;
+    background-color: darkgreen;
+    align-content: center;
+
+}
+
+.buttonDemo {
+    background-color: gray;
+    border-radius: 60px;
+
+    margin-top: 1rem;
+
+    
+}
+.App-songs {
+    --xzy-d65: linear-gradient(to right in xyz-d65, black, white);
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.songsContent {
+    background-color: gray;
+}
+
+.songsTitle {
+    margin-top: 0rem;
 }
